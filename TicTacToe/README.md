@@ -1,24 +1,30 @@
-# 🎲 Kółko i Krzyżyk (Tic Tac Toe)
+# 🎲 Kółko i Krzyżyk ze sztuczną siecią neuronową
+Prosta gra Kółko i Krzyżyk z przeciwnikiem AI, dostępna jako aplikacja webowa. Frontend zbudowany w Next.js, backend w Flask z użyciem wytrenowanej sieci neuronowej (MLP w Pythonie) do podejmowania decyzji przez AI.
 
-Prosty, ale wciągający projekt gry **Kółko i Krzyżyk**, stworzony, by nauczyć się programowania interakcji oraz podstaw sztucznej inteligencji. Gra umożliwia rozgrywkę między dwoma graczami lub z AI.  
-
----
-
-## ✨ Funkcjonalności:
-- 🧑‍🤝‍🧑 Gra dla dwóch graczy na jednym urządzeniu  
-- 🤖 Tryb gry z prostą sztuczną inteligencją  
-- 🏆 Automatyczne wykrywanie zwycięzcy i remisu  
-- 🔄 Możliwość restartu rozgrywki w dowolnym momencie  
+## ✨ Funkcjonalności: 
+- 🤖 Gra z wlasnoręcznie napisaną sztuczną inteligencją w Pythonie  
+- 🏆 Dwa tryby gry: Klasyczny lub Tryb ze Znikającymi Ruchami  
+- 🔄 Możliwość restartu rozgrywki w dowolnym momencie
+- 🥇 Licznik wyników: wygrane gracza, AI oraz remisy
 - 📱 Responsywny interfejs działający na komputerach i urządzeniach mobilnych  
 
 ---
 
-## 🛠 Technologie:
-- **HTML**, **CSS**, **JavaScript**  
-- (opcjonalnie) **Flask/Python** na backendzie  
-- Proste algorytmy AI napisane w czystym JavaScript lub Pythonie  
+## 📸 Screeny
+| Gra Klasyczna |
+|--------------|
+| ![screen1](screens/screen_wygrana.png) |
+
+| Gra ze Znikającymi Ruchami |
+|--------------|
+| ![screen1](screens/screen_znikanie.png) |
 
 ---
 
-## 🎯 Cel projektu:
-Nauka tworzenia interaktywnych aplikacji webowych oraz praktyczne zastosowanie prostych algorytmów AI. Idealny projekt na start, łączący logikę gry, programowanie i UX.  
+## 🛠 Technologie:
+- **HTML**, **CSS**, **JavaScript** - **Frontend**
+- **Flask/Python** - **Backend** 
+- **Prosta sieć neuronowa napisana w Pythonie**  
+
+---
+
