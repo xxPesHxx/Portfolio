@@ -57,8 +57,14 @@ Aplikacja mobilna do zarządzania i podlewania roślin domowych, stworzona w And
   </tr>
 </table>
 
-<img src="screens/plant_screen.png" width="180" align="left" style="margin-right: 20px;"/>
-Tekst obok obrazka, który opisuje daną funkcjonalność. Lorem ipsum dolor sit amet...
+<div style="display: flex; align-items: center; gap: 20px;">
+  <img src="screens/plant_screen.png" width="250"/>
+  <div>
+    <b>Informacje o roślinie</b><br/>
+    Wyświetla wszystkie informacje o klikniętej roślinie.
+  </div>
+</div>
+
 
 
 ## 🔒 Technologie
