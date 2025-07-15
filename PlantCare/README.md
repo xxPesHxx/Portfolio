@@ -14,7 +14,7 @@ Aplikacja mobilna do zarządzania i podlewania roślin domowych, stworzona w And
 <table>
   <tr>
     <td>
-      <img src="screens/login_screen.png" width="180"/>
+      <img src="screens/login_screen.png" width="250"/>
     </td>
     <td>
       <b>Ekran Logowania</b><br/>
@@ -25,16 +25,37 @@ Aplikacja mobilna do zarządzania i podlewania roślin domowych, stworzona w And
 
 <table>
   <tr>
-    <td><b>Ekran Logowania</b></td>
-    <td><b>Ekran Główny</b></td>
-    <td><b>Dodawanie Rośliny</b></td>
-    <td><b>Informacje o roślinie</b></td>
+    <td>
+      <img src="screens/main_screen.png" width="250"/>
+    </td>
+    <td>
+      <b>Ekran Główny</b><br/>
+      Wyświetla wszystkie wcześniej dodane rośliny wraz z nazwą, opisem oraz nastepną datą podlania.
+    </td>
   </tr>
+</table>
+
+<table>
   <tr>
-    <td><img src="screens/login_screen.png" width="300"/></td>
-    <td><img src="screens/main_screen.png" width="300"/></td>
-    <td><img src="screens/add_plant_screen.png" width="300"/></td>
-    <td><img src="screens/plant_screen.png" width="300"/></td> 
+    <td>
+      <img src="screens/add_plant_screen.png" width="250"/>
+    </td>
+    <td>
+      <b>Dodawanie Rośliny</b><br/>
+      Umożliwia dodanie rośliny wraz z jej gatunkiem, nazwą, opisem, interwałem podlewania oraz jednej z kilku dostępnych ikon.
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td>
+      <img src="screens/plant_screen.png" width="250"/>
+    </td>
+    <td>
+      <b>Informacje o roślinie</b><br/>
+      Wyświetla wszystkie informacje o klikniętej roślinie.
+    </td>
   </tr>
 </table>
 
