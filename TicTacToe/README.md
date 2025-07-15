@@ -13,11 +13,11 @@ Prosta gra Kółko i Krzyżyk z przeciwnikiem AI, dostępna jako aplikacja webow
 ## 📸 Screeny
 | Gra Klasyczna |
 |--------------|
-| ![screen1](screens/screen_wygrana.png) |
+| ![screen1](screens_TicTacToe/screen_wygrana.png) |
 
 | Gra ze Znikającymi Ruchami |
 |--------------|
-| ![screen1](screens/screen_znikanie.png) |
+| ![screen1](screens_TicTacToe/screen_znikanie.png) |
 
 ---
 
