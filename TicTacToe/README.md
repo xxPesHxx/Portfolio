@@ -22,7 +22,7 @@ Prosta gra Kółko i Krzyżyk z przeciwnikiem AI, jako aplikacja webowa. Fronten
 ---
 
 ## 🛠 Technologie:
-- **HTML**, **CSS**, **JavaScript** - **Frontend**
+- **HTML**, **Next.js**, **CSS Grid** - **Frontend**
 - **Flask/Python** - **Backend** 
 - **Prosta sieć neuronowa napisana w Pythonie**  
 
