@@ -11,59 +11,20 @@ Aplikacja mobilna do zarządzania i podlewania roślin domowych, stworzona w And
 
 ## 📸 Screeny
 
-<table>
-  <tr>
-    <td>
-      <img src="screens/login_screen.png" width="250"/>
-    </td>
-    <b>Ekran Logowania</b><br/>                                     
+<img src="screens/login_screen.png" align="left" width="200px"/>
+<b>Ekran Logowania</b><br/>                                     
     Umożliwia użytkownikowi zalogowanie się do aplikacji za pomocą Firebase Authentication. 
-  </tr>
-</table>
+<br clear="left"/>
 
-<table>
-  <tr>
-    <td>
-      <img src="screens/main_screen.png" width="250"/>
-    </td>
-    <td>
-      <b>Ekran Główny</b><br/>
-      Wyświetla wszystkie wcześniej dodane rośliny wraz z nazwą, opisem oraz nastepną datą podlania.                            
-    </td>
-  </tr>
-</table>
+<img src="screens/main_screen.png" align="left" width="200px"/>
+<b>Ekran Główny</b><br/>
+      Wyświetla wszystkie wcześniej dodane rośliny wraz z nazwą, opisem oraz nastepną datą podlania.  
+<br clear="left"/>
 
-<table>
-  <tr>
-    <td>
-      <img src="screens/add_plant_screen.png" width="250"/>
-    </td>
-    <td>
-      <b>Dodawanie Rośliny</b><br/>
+<img src="screens/add_plant_screen.png" align="left" width="200px"/>
+<b>Dodawanie Rośliny</b><br/>
       Umożliwia dodanie rośliny wraz z jej gatunkiem, nazwą, opisem, interwałem podlewania oraz jednej z kilku dostępnych ikon.
-    </td>
-  </tr>
-</table>
-
-<table>
-  <tr>
-    <td>
-      <img src="screens/plant_screen.png" width="250"/>
-    </td>
-    <td>
-      <b>Informacje o roślinie</b><br/>
-      Wyświetla wszystkie informacje o klikniętej roślinie.                                                                  
-    </td>
-  </tr>
-</table>
-
-<div style="display: flex; align-items: center; gap: 20px;">
-  <img src="screens/plant_screen.png" width="250"/>
-  <div>
-    <b>Informacje o roślinie</b><br/>
-    Wyświetla wszystkie informacje o klikniętej roślinie.
-  </div>
-</div>
+<br clear="left"/>
 
 <img src="screens/plant_screen.png" align="left" width="200px"/>
 <b>Informacje o roślinie</b><br/>
