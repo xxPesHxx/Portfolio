@@ -57,6 +57,10 @@ Aplikacja mobilna do zarządzania i podlewania roślin domowych, stworzona w And
   </tr>
 </table>
 
+<img src="screens/plant_screen.png" width="180" align="left" style="margin-right: 20px;"/>
+Tekst obok obrazka, który opisuje daną funkcjonalność. Lorem ipsum dolor sit amet...
+
+
 ## 🔒 Technologie
 
 - **Kotlin**
