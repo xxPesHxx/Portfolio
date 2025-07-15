@@ -36,4 +36,4 @@ Prosta gra Kółko i Krzyżyk z przeciwnikiem AI, jako aplikacja webowa. Fronten
 ## 📁 Struktura Projektu
 - **app.py - Plik główny backendu (Flask). Udostępnia API `/api/move`, które odbiera aktualną planszę i zwraca ruch AI.**
 - **main.py - Implementacja sieci neuronowej**
-- **tictactoe-web\src\app\tictactoe\TicTacToeBoard.tsx - Główny plik frontendu, odpowiada za wyświetlanie planszy i obsługę kliknięć**
+- **```tictactoe-web\src\app\tictactoe\TicTacToeBoard.tsx``` - Główny plik frontendu, odpowiada za wyświetlanie planszy i obsługę kliknięć**
