@@ -18,7 +18,7 @@ Aplikacja mobilna do zarządzania i podlewania roślin domowych, stworzona w And
     </td>
     <td>
       <b>Ekran Logowania</b><br/>
-      Umożliwia użytkownikowi zalogowanie się do aplikacji za pomocą Firebase Authentication.
+      Umożliwia użytkownikowi zalogowanie się do aplikacji za pomocą Firebase Authentication.                                   
     </td>
   </tr>
 </table>
@@ -30,7 +30,7 @@ Aplikacja mobilna do zarządzania i podlewania roślin domowych, stworzona w And
     </td>
     <td>
       <b>Ekran Główny</b><br/>
-      Wyświetla wszystkie wcześniej dodane rośliny wraz z nazwą, opisem oraz nastepną datą podlania.
+      Wyświetla wszystkie wcześniej dodane rośliny wraz z nazwą, opisem oraz nastepną datą podlania.                            
     </td>
   </tr>
 </table>
@@ -54,7 +54,7 @@ Aplikacja mobilna do zarządzania i podlewania roślin domowych, stworzona w And
     </td>
     <td>
       <b>Informacje o roślinie</b><br/>
-      Wyświetla wszystkie informacje o klikniętej roślinie.
+      Wyświetla wszystkie informacje o klikniętej roślinie.                                                                  
     </td>
   </tr>
 </table>
