@@ -13,7 +13,7 @@ Aplikacja mobilna do zarządzania i podlewania roślin domowych, stworzona w And
 
 | Ekran główny | Dodawanie rośliny | Informacje o roślinie |
 |--------------|--------------------|--------------------|
-| ![screen1](screens/main_screen.png) | ![screen2](screens/plant_screen.png) |
+| ![screen1](screens/main_screen.png) | ![screen2](screens/add_plant_screen.png) | ![screen2](screens/plant_screen.png) |
 
 
 
