@@ -13,7 +13,7 @@ Aplikacja mobilna do zarządzania i podlewania roślin domowych, stworzona w And
 
 <img src="screens/login_screen.png" align="left" width="200px"/>
 
-<b>Ekran Logowania</b><br/>                                     
+<b><h3>Ekran Logowania</h3></b><br/>                                     
     Umożliwia użytkownikowi zalogowanie się do aplikacji za pomocą Firebase Authentication. 
 <br clear="left"/>
 
