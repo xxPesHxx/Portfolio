@@ -12,21 +12,25 @@ Aplikacja mobilna do zarządzania i podlewania roślin domowych, stworzona w And
 ## 📸 Screeny
 
 <img src="screens/login_screen.png" align="left" width="200px"/>
+
 <b>Ekran Logowania</b><br/>                                     
     Umożliwia użytkownikowi zalogowanie się do aplikacji za pomocą Firebase Authentication. 
 <br clear="left"/>
 
 <img src="screens/main_screen.png" align="left" width="200px"/>
+
 <b>Ekran Główny</b><br/>
       Wyświetla wszystkie wcześniej dodane rośliny wraz z nazwą, opisem oraz nastepną datą podlania.  
 <br clear="left"/>
 
 <img src="screens/add_plant_screen.png" align="left" width="200px"/>
-<b>Dodawanie Rośliny</b><br/>
+
+<b>##Dodawanie Rośliny</b><br/>
       Umożliwia dodanie rośliny wraz z jej gatunkiem, nazwą, opisem, interwałem podlewania oraz jednej z kilku dostępnych ikon.
 <br clear="left"/>
 
 <img src="screens/plant_screen.png" align="left" width="200px"/>
+
 <b>Informacje o roślinie</b><br/>
     Wyświetla wszystkie informacje o klikniętej roślinie.
 <br clear="left"/>
