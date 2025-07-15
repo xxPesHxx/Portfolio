@@ -31,9 +31,8 @@ Aplikacja mobilna do zarządzania i podlewania roślin domowych, stworzona w And
 
 ## 📱 Wymagania
 
-- Android Studio (Arctic Fox lub nowszy)
-- Emulator lub fizyczne urządzenie z Androidem
-- Połączenie z internetem (dla Firebase)
+- Android Studio
+- Emulator lub telefon z androidem
 
 ## 🔧 Jak uruchomić
 
@@ -41,7 +40,7 @@ Aplikacja mobilna do zarządzania i podlewania roślin domowych, stworzona w And
    ```bash
    git clone https://github.com/xxPesHxx/Portfolio.git
 2. Otwórz projekt w Android Studio (Portfolio/PlantCare)
-3. Skonfiguruj swoje dane Firebase (google-services.json w app/)
+3. Skonfiguruj swój plik Firebase (google-services.json w app/)
 4. Uruchom aplikację na emulatorze lub telefonie
 
 
