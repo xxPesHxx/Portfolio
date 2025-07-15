@@ -7,22 +7,41 @@ Aplikacja mobilna do zarządzania i podlewania roślin domowych, stworzona w And
 - Dodawanie własnych roślin
 - Ustawianie przypomnień o podlewaniu
 - Zdjęcia i opisy roślin
-- Obsługa powiadomień i harmonogramów
+- Obsługa powiadomień
 
 ## 📸 Screeny
 
-| Ekran główny | Dodawanie rośliny | Informacje o roślinie |
-|--------------|--------------------|--------------------|
-| ![screen1](screens/main_screen.png) | ![screen2](screens/add_plant_screen.png) | ![screen2](screens/plant_screen.png) |
+| Ekran główny | Dodawanie rośliny |
+|--------------|--------------------|
+| ![screen1](screens/main_screen.png) | ![screen2](screens/add_plant_screen.png) | 
+
+| Informacje o roślinie | Ekran Logowania |
+|--------------------|--------------------|
+| ![screen2](screens/plant_screen.png) | ![screen2](screens/login_screen.png) |
 
 
 
-## 🛠 Technologie
+## 🔒 Technologie
 
-- Kotlin
-- Jetpack Compose
-- Room (baza danych)
-- WorkManager (powiadomienia)
+- **Kotlin**
+- **Jetpack Compose**
+- **Firebase Authentication**
+- **Firebase Realtime Database**
+- **WorkManager**
 
-## 📁 Struktura katalogów
+## 📱 Wymagania
+
+- Android Studio (Arctic Fox lub nowszy)
+- Emulator lub fizyczne urządzenie z Androidem
+- Połączenie z internetem (dla Firebase)
+
+## 🔧 Jak uruchomić
+
+1. Sklonuj repozytorium:
+   ```bash
+   git clone https://github.com/xxPesHxx/Portfolio.git
+2. Otwórz projekt w Android Studio (Portfolio/PlantCare)
+3. Skonfiguruj swoje dane Firebase (google-services.json w app/)
+4. Uruchom aplikację na emulatorze lub telefonie
+
 
