@@ -15,19 +15,16 @@ Aplikacja mobilna do zarządzania i podlewania roślin domowych, stworzona w And
   <tr>
     <td><img src="screens/login_screen.png" width="250"/></td>
     <td><img src="screens/main_screen.png" width="250"/></td>
+    <td><img src="screens/plant_screen.png" width="250"/></td>
+    <td><img src="screens/add_plant_screen.png" width="250"/></td>
   </tr>
   <tr>
     <td><b>Ekran Logowania</b></td>
     <td><b>Ekran Główny</b></td>
+    <td><b>Informacje o roślinie</b></td>
+    <td><b>Dodawanie Rośliny</b></td>
   </tr>
 </table>
-
-
-| Informacje o roślinie | Dodawanie Rośliny |
-|--------------------|--------------------|
-| ![screen3](screens/plant_screen.png) | ![screen4](screens/add_plant_screen.png) |
-
-
 
 ## 🔒 Technologie
 
