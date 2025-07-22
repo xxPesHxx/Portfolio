@@ -1,0 +1,65 @@
+/* index.css */
+:root {
+  --bg: #1f2937;
+  --card: #374151;
+  --accent: #3b82f6;
+  --text: #f9fafb;
+  --text-muted: #9ca3af;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Roboto, sans-serif;
+  background-color: var(--bg);
+  color: var(--text);
+}
+
+#root {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: var(--accent);
+}
+
+section {
+  margin-bottom: 1.5rem;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.card {
+  background-color: var(--card);
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+  padding: 1rem;
+  flex: 1 1 calc(50% - 1rem);
+  min-width: 250px;
+}
+
+.card h2 {
+  margin-top: 0;
+  font-size: 1.25rem;
+  color: var(--accent);
+}
+
+.card p {
+  margin: 0.5rem 0;
+  color: var(--text);
+}
+
+.small {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
