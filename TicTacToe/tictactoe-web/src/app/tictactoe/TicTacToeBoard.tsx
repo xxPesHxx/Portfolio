@@ -20,7 +20,7 @@ export default function TicTacToeBoard() {
     [0,4,8],[2,4,6],
   ];
 
-  // Determine if a cell is next-to-fade (one move away)
+
   const isNextToFade = (idx: number): boolean => {
     if (!fadeMode) return false;
     if (xHistory.length >= 3 && idx === xHistory[0]) return true;
@@ -33,7 +33,7 @@ export default function TicTacToeBoard() {
     const fade = fadingIndex === idx;
     const style = fade ? { opacity: 0.3, transition: 'opacity 0.5s' } : {};
 
-    // Choose correct image based on next-to-fade state
+
     if (val === 1) {
       const src = gray ? '/x_gray.png' : '/x_icon.png';
       return <Image src={src} alt="X" width={60} height={60} style={style} />;
@@ -98,7 +98,7 @@ export default function TicTacToeBoard() {
     if (isProcessing || message || board[index] !== 0) return;
     setIsProcessing(true);
 
-    // Player X move
+    // Player
     const newX = doPlayerMove(index);
     let tempBoard = board.map((v,i) => (i===index?1:v));
     let win = checkWinner(tempBoard);
@@ -109,7 +109,7 @@ export default function TicTacToeBoard() {
     }
     removeOldestMove(newX, setXHistory);
 
-    // AI O move
+    // AI
     const newO = await doAiMove(tempBoard);
     tempBoard = tempBoard.map((v,i)=>(newO.includes(i)&&board[i]===0?-1:v));
     win = checkWinner(tempBoard);

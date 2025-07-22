@@ -4,9 +4,6 @@ import sys
 import os
 from functools import lru_cache
 
-# ----------------------------------------
-# Part 1: TicTacToe game logic + Minimax with memoization
-# ----------------------------------------
 
 WINNING_LINES = [
     (0,1,2), (3,4,5), (6,7,8),  # rows
@@ -31,7 +28,7 @@ class TicTacToe:
                 return -1
         if 0 not in board:
             return 0  # draw
-        return None  # game continues
+        return None  # continues
 
     @lru_cache(maxsize=None)
     def minimax(self, board, player):
@@ -51,10 +48,6 @@ class TicTacToe:
                 best_move = move
         return best_score, best_move
 
-# ----------------------------------------------------
-# Part 2: Generate training data using Minimax labeling with caching
-# ----------------------------------------------------
-
 def generate_dataset():
     states = []
     moves = []
@@ -69,29 +62,22 @@ def generate_dataset():
         winner = game.check_winner(board)
         if winner is not None:
             return
-        # get best move via minimax
         _, best = game.minimax(board, player)
         if best is not None:
             states.append(board)
             moves.append(best)
-        # explore deeper
         for mv in game.available_moves(board):
             new_board = list(board)
             new_board[mv] = player
             traverse(tuple(new_board), -player)
 
     traverse(tuple([0]*9), player=1)
-    # prepare arrays
     X = np.array(states, dtype=float).T      # shape (9, N)
     Y = np.zeros((9, X.shape[1]), dtype=float)
     for i, mv in enumerate(moves):
         Y[mv, i] = 1
     return X, Y
-
-# -----------------------------------------------
-# Part 3: Define simple MLP
-# -----------------------------------------------
-
+    
 class MLP:
     def __init__(self, input_size=9, hidden_size=64, output_size=9, lr=1.0):
         self.lr = lr
@@ -153,10 +139,6 @@ class MLP:
             p = pickle.load(f)
         self.W1,self.b1,self.W2,self.b2 = p['W1'],p['b1'],p['W2'],p['b2']
 
-# ----------------------------------------
-# Part 4: CLI play vs AI
-# ----------------------------------------
-
 def print_board(board):
     symbols = {1: 'X', -1: 'O', 0: ' '}
     for i in range(3):
@@ -181,7 +163,6 @@ def play_vs_ai(model):
             board[move] = current
             board = tuple(board)
         else:
-            # use network prediction
             X = np.array(board, dtype=float).reshape(9,1)
             pred = model.predict(X)[0]
             print(f"AI gra na pozycji {pred}")
@@ -201,10 +182,6 @@ def play_vs_ai(model):
             break
 
         current *= -1
-
-# -----------------------------
-# Main
-# -----------------------------
 
 if __name__ == "__main__":
     if len(sys.argv) > 1 and sys.argv[1] == 'play':
