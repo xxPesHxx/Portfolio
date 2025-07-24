@@ -4,7 +4,7 @@ W przyszłości planuję dodać kolejne CLI solany, aby informacje były jeszcze
 
 # 🛰️ Solana Validator Dashboard
 
-**Projekt powstał z myślą o codziennym użytku — do szybkiego i wygodnego sprawdzania działania serwera, na którym uruchomiony jest walidator sieci Solana.**
+Projekt powstał z myślą o codziennym użytku — do szybkiego i wygodnego sprawdzania działania serwera, na którym uruchomiony jest walidator sieci Solana.
 
 ---
 
@@ -13,7 +13,7 @@ W przyszłości planuję dodać kolejne CLI solany, aby informacje były jeszcze
 - **Podgląd działania samego walidatora**  
   (m.in. `solana catchup --our-localhost`, `solana epoch-info`)
 
-- **Sprawdzenie aktualnego zużycia zasobów systemowych**  
+- **Sprawdzenie aktualnego zużycia zasobów**  
   - CPU  
   - RAM  
   - Dysk
@@ -30,6 +30,17 @@ W przyszłości planuję dodać kolejne CLI solany, aby informacje były jeszcze
 
 ---
 
+## Screeny
+| Gra Klasyczna |
+|--------------|
+| ![screen1](screens_TicTacToe/screen_wygrana.png) |
+
+| Gra ze Znikającymi Ruchami |
+|--------------|
+| ![screen1](screens_TicTacToe/screen_znikanie.png) |
+
+---
+
 ## Technologie
 
 - **Frontend:** React (Vite + TailwindCSS)
@@ -39,15 +50,13 @@ W przyszłości planuję dodać kolejne CLI solany, aby informacje były jeszcze
 
 ---
 
+## Jak uruchomić
+- Projekt jest postawiony na domenie: [https://kacperwaszczuk.pl/](https://kacperwaszczuk.pl/dashboard)
+  
+---
+
 ## Plany na przyszłość
 
 W planach jest dodanie kolejnych komend z CLI Solany, aby jeszcze dokładniej monitorować stan węzła i aktywność w sieci.
 
 ---
-
-## Zrzuty ekranu
-
-Dodaj tu zrzuty ekranu, np.:
-
-```md
-![Podgląd działania walidatora](./screenshots/validator-status.png)
