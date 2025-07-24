@@ -46,7 +46,7 @@ Projekt powstał z myślą o codziennym użytku — do szybkiego i wygodnego spr
 ---
 
 ## Jak uruchomić
-- Projekt jest postawiony na domenie: [https://kacperwaszczuk.pl/](https://kacperwaszczuk.pl/dashboard)
+- Projekt jest postawiony na domenie: [https://kacperwaszczuk.pl/](https://kacperwaszczuk.pl/dashboard/)
   
 ---
 
