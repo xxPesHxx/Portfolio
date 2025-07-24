@@ -1,6 +1,8 @@
 # 🎲 Kółko i Krzyżyk ze sztuczną siecią neuronową
 Prosta gra Kółko i Krzyżyk z przeciwnikiem AI, jako aplikacja webowa. Frontend zbudowany w Next.js, backend w Flask z użyciem wytrenowanej sieci neuronowej (MLP w Pythonie).
 
+---
+
 ## Funkcjonalności: 
 - Gra z wlasnoręcznie napisaną sztuczną inteligencją w Pythonie  
 - Dwa tryby gry: Klasyczny lub Tryb ze Znikającymi Ruchami  
@@ -29,7 +31,7 @@ Prosta gra Kółko i Krzyżyk z przeciwnikiem AI, jako aplikacja webowa. Fronten
 ---
 
 ## Jak uruchomić
-- Aplikacja jest postawiona na domenie: [https://kacperwaszczuk.pl/](https://kacperwaszczuk.pl/tictactoe)
+- Projekt jest postawiony na domenie: [https://kacperwaszczuk.pl/](https://kacperwaszczuk.pl/tictactoe)
 
 ---
 
