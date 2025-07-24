@@ -31,13 +31,10 @@ Projekt powstał z myślą o codziennym użytku — do szybkiego i wygodnego spr
 ---
 
 ## Screeny
-| Gra Klasyczna |
 |--------------|
 | ![screen1](screens_dashboard/dashboard1.png) |
-
-| Gra ze Znikającymi Ruchami |
-|--------------|
 | ![screen1](screens_dashboard/dashboard2.png) |
+|--------------|
 
 ---
 
