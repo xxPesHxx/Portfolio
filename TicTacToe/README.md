@@ -21,6 +21,10 @@ Prosta gra Kółko i Krzyżyk z przeciwnikiem AI, jako aplikacja webowa. Fronten
 |--------------|
 | ![screen1](screens_TicTacToe/screen_znikanie.png) |
 
+| Wygrana |
+|--------------|
+| ![screen1](screens_TicTacToe/screen_wygrana.png) |
+
 ---
 
 ## Technologie:
