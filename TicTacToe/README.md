@@ -15,7 +15,7 @@ Prosta gra Kółko i Krzyżyk z przeciwnikiem AI, jako aplikacja webowa. Fronten
 ## Screeny
 | Gra Klasyczna |
 |--------------|
-| ![screen1](screens_TicTacToe/screen_gra.png) |
+| ![screen1](screens_TicTacToe/screen_gra1.png) |
 
 | Gra ze Znikającymi Ruchami |
 |--------------|
