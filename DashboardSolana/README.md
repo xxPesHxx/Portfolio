@@ -1,4 +1,4 @@
-# 🛰️ Solana Validator Dashboard
+# Solana Validator Dashboard
 
 Projekt powstał z myślą o codziennym użytku — do szybkiego i wygodnego sprawdzania działania serwera, na którym uruchomiony jest walidator sieci Solana.
 
@@ -45,8 +45,3 @@ Projekt powstał z myślą o codziennym użytku — do szybkiego i wygodnego spr
   
 ---
 
-## Plany na przyszłość
-
-W planach jest dodanie kolejnych komend z CLI Solany, aby jeszcze dokładniej monitorować stan węzła i aktywność w sieci.
-
----
