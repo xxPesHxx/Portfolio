@@ -1,4 +1,4 @@
-# Solana Validator Dashboard
+# 💻 Solana Validator Dashboard
 
 Projekt powstał z myślą o codziennym użytku — do szybkiego i wygodnego sprawdzania działania serwera, na którym uruchomiony jest walidator sieci Solana.
 
