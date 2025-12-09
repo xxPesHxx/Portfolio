@@ -13,12 +13,6 @@ Projekt powstał z myślą o codziennym użytku — do szybkiego i wygodnego spr
   - RAM  
   - Dysk
 
-- **Monitorowanie aktywnych procesów**  
-  - PID  
-  - Użycie CPU i RAM  
-  - Użytkownik  
-  - Ścieżka do procesu
-
 - **Wizualizacja historii obciążenia CPU**  
   - Całościowe zużycie  
   - Obciążenie każdego rdzenia z osobna
