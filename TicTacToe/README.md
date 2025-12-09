@@ -19,11 +19,11 @@ Prosta gra Kółko i Krzyżyk z przeciwnikiem AI, jako aplikacja webowa. Fronten
 
 | Gra ze Znikającymi Ruchami |
 |--------------|
-| ![screen1](screens_TicTacToe/screen_znikanie.png) |
+| ![screen1](screens_TicTacToe/screen_znikanie1.png) |
 
 | Wygrana |
 |--------------|
-| ![screen1](screens_TicTacToe/screen_wygrana.png) |
+| ![screen1](screens_TicTacToe/screen_wygrana1.png) |
 
 ---
 
