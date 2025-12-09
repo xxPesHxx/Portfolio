@@ -15,7 +15,7 @@ Prosta gra Kółko i Krzyżyk z przeciwnikiem AI, jako aplikacja webowa. Fronten
 ## Screeny
 | Gra Klasyczna |
 |--------------|
-| ![screen1](screens_TicTacToe/screen_wygrana.png) |
+| ![screen1](screens_TicTacToe/screen_gra.png) |
 
 | Gra ze Znikającymi Ruchami |
 |--------------|
@@ -24,7 +24,7 @@ Prosta gra Kółko i Krzyżyk z przeciwnikiem AI, jako aplikacja webowa. Fronten
 ---
 
 ## Technologie:
-- **HTML**, **Next.js**, **CSS Grid** - **Frontend**
+- **HTML**, **Next.js**, **TailwindCSS** - **Frontend**
 - **Flask/Python** - **Backend** 
 - **Prosta sieć neuronowa napisana w Pythonie**  
 
