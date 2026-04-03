@@ -1,4 +1,4 @@
-# 🎲 Kółko i Krzyżyk ze sztuczną siecią neuronową
+# Kółko i Krzyżyk ze sztuczną siecią neuronową
 Prosta gra Kółko i Krzyżyk z przeciwnikiem AI, jako aplikacja webowa. Frontend zbudowany w Next.js, backend w Flask z użyciem wytrenowanej sieci neuronowej (MLP w Pythonie).
 
 ---
