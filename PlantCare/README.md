@@ -1,4 +1,4 @@
-# 🌼 PlantCare
+# PlantCare
 
 Aplikacja mobilna do zarządzania i podlewania roślin domowych, stworzona w Android Studio z użyciem Kotlin + Jetpack Compose.
 
